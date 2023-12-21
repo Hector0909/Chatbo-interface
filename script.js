@@ -1,6 +1,6 @@
 import { API_KEY } from './config.js';
 const submitBtn = document.getElementById('submitbtn');
-const conversation = []; // Initialize the conversation chain
+const conversation = [];  // Initialize the conversation chain
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
