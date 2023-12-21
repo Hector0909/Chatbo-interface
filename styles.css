@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ccd1d1;
+}
+
+div{
+    width: 100%;
+}
+
+.chatbubble, .chatbubble2{
+    padding: 20px;
+    color: white;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.chatbubble{
+    border: "1px solid red";
+    background-color: rgb(79, 92, 92);
+    margin-left: 50px;
+    margin-right: 100px;
+    border-radius: 0 20px 20px 20px;
+    float: left;
+    max-width: 700px;
+}
+
+.chatbubble2{
+    border: "1px solid red";
+    border-width: 3px;
+    background-color: rgb(47, 58, 58);
+    margin-right: 50px;
+    margin-left: 100px;
+    border-radius: 20px 0 20px 20px;
+    float: right;
+    max-width: 700px;
+}
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 520px;
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccd1d1;
+    mask-image: linear-gradient(to bottom, transparent, cadetblue 4%, cadetblue 96%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, cadetblue 4%, cadetblue 96%, transparent);
+}
+
+@media (max-width: 1000px) {
+    .chatbox {
+        width: 100%;
+    }
+}
+
+textarea{
+    width: 994px;
+    max-width: 994px;
+
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.submitbtn{
+    width: 200px;
+    height: 30px;
+    display: block;
+    border-radius: 4px;
+    border-style: none;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.maindiv{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
